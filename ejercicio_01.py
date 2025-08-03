@@ -16,10 +16,10 @@ try:
         for i, nota in enumerate(datos["notas"]):
             print(f"Nota #{i+1}: {nota}")
         promedio=sum(datos["notas"])/len(datos["notas"])
-        print(f"El promedio de {nombre} es: {promedio}")
+        print(f"El promedio de {nombre} es: {promedio:.2f}")
 
 except Exception as e:
-    print("Ocurrio un erro inesperado")
+    print(f"\nOcurrió un error inesperado en {e}")
 
 finally:
     print(estudiantes)
