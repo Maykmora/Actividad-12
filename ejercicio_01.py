@@ -22,4 +22,4 @@ except Exception as e:
     print(f"\nOcurrió un error inesperado en {e}")
 
 finally:
-    print(estudiantes)
+    print("Muchas gracias por usar el programa")
